@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>Olivia Stoll</b></h1>
+  <p><b>About the Maps</b></p>
+  <p class="w3-padding-16"></p>
+  <body>
+    <a class="w3-button w3-Gray" href="file:///C:/GEO%20405/website/website/index.html"><h4>Go to the Home Page</h4></a>
+  </body>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px" class="ws-border">
+  <div class="w3-third">
+    <p>
+      <h1><b>Mount Everest</b></h1>
+      This map is the Death rate per elevation in relation to Camps on Mount Everest. This was done through the collection of data from Open Street Map, The Himalayian Database, Mount Everest Britannica, and GOogle Earth coordinates. The deaths were assigned to the camps based on proximity. The red line significes the Death Zone on Everest where there is the highest chance and number of death and accident occurances.
+    </p>
+    <p>
+      <h1><b>Alberto National Forest</b></h1>
+      Alberto National Forest was created by using STRM Tile grabber, merging the DEM files, stretching, clipped, and then saved as a JPG and exported into Blender. From there I created a hillshade of Alberto National Forest in Chile with additions such as roads, borders, water,Glaciers and Park land. I created the color scheme in Adobe Colors using an image of the natural environment of Chile. Then inserting it into Adobe Illustrator where I added titles and names.
+    </p>
+    <p>
+      <h1><b>Pollution Exposure</b></h1>
+      Pollution Exposure By Income was designed in hopes of proving that companies such as American Energy Power (AEP) select the locations of plants that cause major air and water pollution by income. AEP was voted the top pollution producing company in the US in 2019 when the map was created. By finding their top plants I took those coordinates and turned them into points, using US census data I was able to display the counties by income in Texas, Kentucky, Ohio, Indiana, Wisconsin, West Virginia, South Carolina, Oklahoma, and Louisiana. I then used a buffer to show how far the pollution could spread and the areas that their air and water could be effected.This map shows that environmental injustice is happening and there is in this case a correlation between pollution producing plant locations and low income areas.
+    </p>
+  </div>
+
+  <div class="w3-third">
+    <p>
+      <h1><b>Turtle Back Arch</b></h1>
+      Turtle Back Arch was mapped and pictured using Python in ArchGIS Pro with the use of Lidar imagery. I selected Turtle Back Arch in our exploration of Arches in the Red River Gorge of Kentucky. Using coordinates found on Google Earth I used a a series of Python codes and functions to create the image of Turle Back Arch.
+    </p>
+    <p>
+      <h1><b>Popular Red River Gorge Arches</b></h1>
+      The map of Popular Arches of Red River Gorge was created using data from the Geographic Names Information Systems, KyFromAboveelevations, and The National Atlas. Using Python in ArcGIS Pro as well as GitHub and Visual Studio Code, I was able to use functions and code to produce a map and stylize it. I inputed the image into my Github respitory RRG to continue our exploration of Red River Gorge.
+    </p>
+    <p>
+      <h1><b>Injuries</h1></b>
+      This map focuses in on Allegheny County in Pittsburgh Pennslyvania. It showcases the injury rates in proximity to neighborhoods and park locations.This map was done using ArcGIS Pro.
+    </p>
+  </div>
+
+  <div class="w3-third">
+    <p>
+      <h1><b>Population Density</b></h1>
+      This map shows the population density of Allegheny County in Pittsburgh Pennsulvania. It was done using ArcGIS Pro and data from the US Census. It was made 3D to showcase the drastic changes in population as you move in and out of the city.
+    </p>
+    <p>
+      <h1><b>Obesity and Fast Food</b></h1>
+      The map displays Obesity rates and fast food locations in Pittsburgh Pennsylvania. Created in ArcGIS Pro, the data was found using US Census data and data provided by instructor. The map displays the obesity rates in 5 different classes. It can be seen in the map that the obesity rate is higher in the most urban areas such as downtown Pittsburgh, this could be do to the urban effect of food deserts and lack of options and resources. The fast food locations also are more centered around the city making them easier options and convenient.
+    </p>
+    <p>
+      <h1><b>Healthcare Clinics and Poverty Risk</b></h1>
+      The purpose of this map is to show the location relation between Healthcare clinics and poverty risk areas in Allegheny County, Pittsburgh Pennsylvania. The maps shows the population density and the locations of the clincs. The poverty risk area is encircled by a red line signifiying the location. This was created in ArcGIS Pro.
+    </p>
+    <p>
+      <h1><b>Educational Attainment Per Unemployment</b></h1>
+      This map was created to show the amount of people with education per county in relation to unemployment. The data was found from US census and Kentucky Geological Survey. It was doen in ArcGIS Pro, and hoped to see if there was any relation between unemployment levels and ability to get an education.
+    </p>
+  </div>
+    </div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px">
+ <link rel="stylesheet" src="https://www.linkedin.com/in/olivia-stoll-157b97170/"</i>
+  <p class="w3-medium">Powered by <A href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else {
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
